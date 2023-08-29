@@ -9,5 +9,4 @@ Basis linux command
 7. mkdir -p //Users/homhumagain/Desktop/GitStuff/test/hom
 8. wq! - to save and exit '
 9. q! - quit and exit console
-10.opened for the first time
   
