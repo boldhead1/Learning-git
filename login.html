@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
     <style>
         td {border: 1px solid rgb(220, 185, 185);
             font-size: 13px;
@@ -56,8 +57,26 @@
     </table>
 
 <div > this is table for donation to our organization</div>
-<span>hello</span>   
+<span>hello</span> <br>
+<form id="form2" onsubmit="return formValidation()">
+    <div class="log">Login Form</div>
+    <div class="displayError"></div>
+    <input type="text" id="uName" placeholder="UserName">
+    <input type="password" id="pass" placeholder="Password"><br>
+    <button type="submit"  style="height: 30px;width: 150px;margin-top: 15px; background-color: rgb(155, 223, 223);color: rgb(14, 15, 15);border-radius: 5px;border: 2px solid green;font-size: 20px;font-weight: bold;" id="sub">Login</button>
+    <button type="reset"  style="height: 30px;width: 150px;margin-top: 15px; background-color: rgb(211, 55, 55);color: rgb(14, 15, 15);border-radius: 5px;border: 2px solid rgb(214, 20, 20);font-size: 20px;font-weight: bold;">Reset</button>
+    <p id="par">
+        <a href="register.html">Signup</a> or forget your
+        <a href="passwordforget.html">Password</a>or
+        <a href="usernameforget.html">User Name?</a>
+
+    </p>
+
+ 
     
 </body>
+<script>
+    alert("hello, Your password or userName is incorrect")
+</script>
 </html>
 
