@@ -8,4 +8,6 @@ Basis linux command
 6. touch <fileName> - To create new file
 7. mkdir -p //Users/homhumagain/Desktop/GitStuff/test/hom
 8. wq! - to save and exit '
+
 9. q! - quit and exit console  
+10. add this file to remote 
