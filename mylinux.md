@@ -7,6 +7,8 @@ Basis linux command
 5. cd .. .. - two label back
 6. touch <fileName> - To create new file
 7. mkdir -p //Users/homhumagain/Desktop/GitStuff/test/hom
+8. i to incert the text.
+9.vim/vi to open the file.
 8. wq! - to save and exit '
 
 9. q! - quit and exit console  
