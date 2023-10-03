@@ -9,7 +9,7 @@ Basis linux command
 7. mkdir -p //Users/homhumagain/Desktop/GitStuff/test/hom
 8. i to incert the text.
 9.vim/vi to open the file.
-8. wq! - to save and exit '
+10. wq! - to save and exit '
 
-9. q! - quit and exit console  
-10. add this file to remote 
+10. q! - quit and exit console  
+11. add this file to remote 
