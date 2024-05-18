@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aid Help</title>
+    <link rel="stylesheet" href="aidlogin.css">
+    <style>
+        table{
+            font-family: 'Courier New', Courier, monospace,Georgia, 'Times New Roman', Times, serif,sans-serif, cursive;
+            margin-top: 0px;
+        margin-left: 20px;
+        }
+        .header0{
+            text-align: center;
+            font-weight: bolder;
+            font-size: 25px;
+        
+        }
+        .header2{
+            font-size: 15px;
+            font-weight: bold;
+        }
+        .header3{
+            font-size: 10px;
+            font-weight: lighter;
+        }
+        
+        .cont label,input{
+            margin:5px;
+            line-height: 120%;
+            border:none;
+            border-bottom: 1px dotted black;
+            color:blue;
+            font-family: cursive;
+        }
+        .cont1{
+            width: 180px;
+            font-family: cursive;
+            font-size: 15px;
+            font-weight: bold;
+        }
+        table, tr,td,th{
+            border: 1px solid;
+            border-collapse: collapse;
+
+        }
+        .text{
+            max-width:60PX;
+            border:none;
+            border-bottom: 1px solid black;
+            color:blue;
+            font-family: cursive;
+        }
+        .text1{
+            max-width: 150px;
+            border:none;
+            border-bottom: 1px solid black;
+            font-family: cursive;
+        }
+        
+        td pre{
+            margin-top: 0;
+        }
+        td:first-child{
+            text-align: left;
+            margin-bottom: 0px;
+        }
+        td{
+            text-align: center;
+            
+        }
+        
+        tr:hover, .text:hover{
+            background-color: beige;
+        }
+        tr:first-child{
+            background-color: seashell;
+            max-height: 10px;
+        }
+        .footer{
+            margin-left: 20px;
+        }
+        .footer span{
+            margin-left: 100px;
+        }
+       
+    </style>
+</head>
+<body>
+
+    <div class="header0">
+        <div class="header1">MyCare Llc</div>
+        <div class="header2">Home Health Aid</div>
+        <div class="header3">Daily Visit Note</div>
+    </div>
+    <div clsss="header_content">
+        <pre class="Cont">
+            <label for="client_name">Client Name:</label><input type="text" name="" id="" class="cont1"> <label for="RecordNumber">Record Number:</label><input type="number" name="" id="RecordNumber" class="cont1"> <label for="client_phone">Phone Number:</label><input type="text"  id="client_phone" class="cont1">
+            <label for="Emergency">Emergency Contact:</label><input type="text" name="" id="Emergency" class="cont1"> <label for="employee_name">Employee Name:</label> <input type="text" id="employee_name" class="cont1"> 
+            <label for="weekOf">Week of:</label> <input type="date" class="cont1"> <label for="to">To:</label> <input type="date" id="to" class="cont1">                   <strong>Instruction: <input type="checkbox" checked>=Performed R=Refused</strong>
+        </pre>
+    </div>
+    <table>
+        <tr>
+            <th>Daily Activities</th>
+            <th>Sunday</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursdayay</th>
+            <th>Friday</th>
+            <th>Saturday</th>
+            <th>Comment</th>
+        </tr>
+        <tr>
+        <td><pre><input type="radio">Bath
+        <input type="checkbox">bed<input type="checkbox">tub <input type="checkbox">shower</pre></td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td><input type="text" class="text text1"></td>
+    </tr>
+    
+    <tr>
+    <td><pre><input type="radio">Hair Care
+    <input type="checkbox">Shampoo<input type="checkbox">Comb/brush <input type="checkbox">Shaving</pre></td>
+        <td><input type="checkbox"></td>
+        <td><input type="checkbox"></td>
+        <td><input type="checkbox"></td>
+        <td><input type="checkbox"></td>
+        <td><input type="checkbox"></td>
+        <td><input type="checkbox"></td>
+        <td><input type="checkbox"></td>
+        <td><input type="text" class="text text1" ></td>
+    </tr>
+    <tr>
+        <td><pre><input type="checkbox">Catheter Care <input type="checkbox">Empty Catheter Bag</pre></td>
+        <td><input type="checkbox"></td>
+        <td><input type="checkbox"></td>
+        <td><input type="checkbox"></td>
+        <td><input type="checkbox"></td>
+        <td><input type="checkbox"></td>
+        <td><input type="checkbox"></td>    
+        <td><input type="checkbox"></td>
+        <td><input type="text" class="text text1"></td>
+    </tr>
+    <tr>
+        <td><pre><input type="radio">Oral Hygene
+    <input type="checkbox">Brush<input type="checkbox">Swab <input type="checkbox">Denture </pre></td>
+        <td><input type="checkbox"></td>
+        <td><input type="checkbox"></td>
+        <td><input type="checkbox"></td>
+        <td><input type="checkbox"></td>
+        <td><input type="checkbox"></td>
+        <td><input type="checkbox"></td>
+        <td><input type="checkbox"></td>
+        <td><input type="text" class="text text1"></td>
+    </tr>
+    <tr>
+        <td><pre><input type="radio">Ambulation Assist
+<input type="checkbox">Cane <input type="checkbox">Walker <input type="checkbox">Other  <input type="text" class="text" > </pre></td>
+        <td><input type="checkbox"></td>
+        <td><input type="checkbox"></td>
+        <td><input type="checkbox"></td>
+        <td><input type="checkbox"></td>
+        <td><input type="checkbox"></td>
+        <td><input type="checkbox"></td>
+        <td><input type="checkbox"></td>
+        <td><input type="text" class="text text1"></td>
+    </tr>
+    <tr>
+        <td><pre><input type="radio">Mobality Assist
+    <input type="checkbox">Bed <input type="checkbox">Chair<input type="checkbox">Dangle </pre></td>
+        <td><input type="checkbox"></td>
+        <td><input type="checkbox"></td>
+        <td><input type="checkbox"></td>
+        <td><input type="checkbox"></td>
+        <td><input type="checkbox"></td>
+        <td><input type="checkbox"></td>
+        <td><input type="checkbox"></td>
+        <td><input type="text" class="text text1"></td>
+    </tr>
+    <tr>
+        <td><pre><input type="radio">Hygene
+    <input type="checkbox">Skin Care <input type="checkbox">Foot Care
+    <input type="checkbox">Deodorant <input type="checkbox">Nails:Cut/file/clean</pre></td>
+        <td><input type="checkbox"></td>
+        <td><input type="checkbox"></td>
+        <td><input type="checkbox"></td>
+        <td><input type="checkbox"></td>
+        <td><input type="checkbox"></td>
+        <td><input type="checkbox"></td>
+        <td><input type="checkbox"></td>
+        <td><input type="text" class="text text1"></td>
+    </tr>
+    <tr>
+        <td><input type="checkbox">Assist with Dressing</td>
+        <td><input type="checkbox"></td>
+        <td><input type="checkbox"></td>
+        <td><input type="checkbox"></td>
+        <td><input type="checkbox"></td>
+        <td><input type="checkbox"></td>
+        <td><input type="checkbox"></td>
+        <td ><input type="checkbox"></td>
+        <td><input type="text" class="text text1"></td>
+    
+    </tr>
+    <tr>
+        <td><pre><input type="radio">Food & Fluid
+    <input type="checkbox">Encourage <input type="checkbox">limit <input type="checkbox">Record I/O </pre></td>
+        <td><input type="checkbox"></td>
+        <td><input type="checkbox"></td>
+        <td><input type="checkbox"></td>
+        <td ><input type="checkbox"></td>
+        <td><input type="checkbox"></td>
+        <td><input type="checkbox"></td>
+        <td><input type="checkbox"></td>
+        <td><input type="text" class="text text1"></td>
+    
+    </tr>
+    <tr>
+        <td><pre><input type="radio">Linens
+    <input type="checkbox">Change <input type="checkbox">Wash<input type="checkbox">Make Bed </pre></td>
+        <td><input type="checkbox"></td>
+        <td><input type="checkbox"></td>
+        <td><input type="checkbox"></td>
+        <td><input type="checkbox"></td>
+        <td><input type="checkbox"></td>
+        <td><input type="checkbox"></td>
+        <td><input type="checkbox"></td>
+        <td><input type="text" class="text text1"></td>
+    </tr>
+    <tr>
+        <td><pre><input type="radio">Clean
+    <input type="checkbox">Bathroom <input type="checkbox">Kitchen 
+    <input type="checkbox">Other<input type="text" class="text1" ></pre></td>
+        <td><input type="checkbox"></td>
+        <td><input type="checkbox"></td>
+        <td><input type="checkbox"></td>
+        <td><input type="checkbox"></td>
+        <td><input type="checkbox"></td>
+        <td><input type="checkbox"></td>
+        <td><input type="checkbox"></td>
+        <td><input type="text" class="text text1"></td>
+    </tr>
+    <tr>
+        <td><input type="checkbox">Laundry <input type="checkbox">Vaccum </pre></td>
+        <td ><input type="checkbox"></td>
+        <td ><input type="checkbox"></td>
+        <td><input type="checkbox"></td>
+        <td><input type="checkbox"></td>
+        <td><input type="checkbox"></td>
+        <td><input type="checkbox"></td>
+        <td><input type="checkbox"></td>
+        <td><input type="text" class="text text1"></td>
+    </tr>
+    <tr>
+        <td><input type="checkbox">Safety Check<input type="checkbox">Universal Precuation</td>
+        <td><input type="checkbox"></td>
+        <td><input type="checkbox"></td>
+        <td><input type="checkbox"></td>
+        <td><input type="checkbox"></td>
+        <td><input type="checkbox"></td>
+        <td><input type="checkbox"></td>    
+        <td><input type="checkbox"></td>
+        <td><input type="text" class="text text1"></td>
+    </tr>
+    <tr>
+    <td><input type="checkbox">Other<input type="text" class="text1"></td>
+        <td ><input type="checkbox"></td>
+        <td ><input type="checkbox"></td>
+        <td ><input type="checkbox"></td>
+        <td ><input type="checkbox"></td>
+        <td><input type="checkbox"></td>
+        <td><input type="checkbox"></td>
+        <td><input type="checkbox"></td>
+        <td><input type="text" class="text text1"></td>
+    </tr>
+    <tr><td>Client/Authorized rep. initial</td>
+        <td><input type="text" class="text" ></td>
+        <td><input type="text" class="text" ></td>
+        <td><input type="text" class="text" ></td>
+        <td><input type="text" class="text" ></td>
+        <td><input type="text" class="text" ></td>
+        <td><input type="text" class="text" ></td>
+        <td><input type="text" class="text"></td>
+        <td><input type="text" class="text text1"></td>
+    
+    
+    </tr>
+    <tr>
+        <td>Aid Initial</td>
+        <td><input type="text"  class="text"></td>
+        <td><input type="text" class="text" ></td>
+        <td><input type="text"  class="text"></td>
+        <td><input type="text"  class="text"></td>
+        <td><input type="text"  class="text"></td>
+        <td><input type="text" class="text"  ></td>
+        <td><input type="text" class="text" ></td>
+        <td><input type="text" class="text text1"></td>
+    
+    </tr>
+    <tr>
+        <td>Time:in-Out</td>
+        <td><input type="text" class="text" ></td>
+        <td><input type="text"  class="text"></td>
+        <td><input type="text"  class="text"></td>
+        <td><input type="text"  class="text"></td>
+        <td><input type="text"  class="text"></td>
+        <td><input type="text"  class="text"></td>
+        <td><input type="text"  class="text"></td>
+        <td><input type="text" class="text text1"></td>
+    </tr>
+    <tr>
+        <td>Total Hrs. Work</td>
+        <td><input type="text"  class="text"></td>
+        <td><input type="text"  class="text"></td>
+        <td><input type="text"  class="text"></td>
+        <td><input type="text"  class="text"></td>
+        <td><input type="text"  class="text"></td>
+        <td><input type="text"  class="text"></td>
+        <td><input type="text"  class="text"></td>
+        <td><input type="text"  class="text text1"></td>
+    </tr>
+   </table>
+   <div class="footer">
+    <p>Note:By signing below both the party agreed the service is being provided(by aid) and received(client) </p>
+    <p>Aid sign:<input type="text" class="text1"> Date: <input type="date"><span> Client sign:<input type="text" class="text1"> Date: <input type="date"></span>  </p>
+    <p>Superviser sign:<input type="text" class="text1"> Date: <input type="date"></p>
+   </div>
+
+</body>
+</html>
