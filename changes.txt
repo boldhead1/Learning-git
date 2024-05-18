@@ -1,5 +1,12 @@
 line one 
+<<<<<<< HEAD
 line 2
 line 3 added
 line four added.
 
+=======
+dsdfasdf
+sdfasdf
+dfasdf
+ine 2
+>>>>>>> allHTMLs
